@@ -5,6 +5,7 @@ assert((des != NULL) && (source != NULL));
  while((*r++ = *source++)!='\0');
 return des;
 }
+
 //while((*des++=*source++));的解释：赋值表达式返回左操作数，所以在赋值'\0'后，循环停止。
 
 /**
@@ -12,3 +13,4 @@ return des;
  本地编辑
 
 **/
+
